@@ -1,6 +1,6 @@
 # Crypto-airdrop by Dmytro Hordiienko
 
-## Disclaimer: the app is working properly and extremely fast if the blockchain is not overloaded. However, when using this software in airdrop claims, when thousands of people also try to claim their tokens, the app can work unstable. I have implemented many features to make this app work stable even in extremal overload conditions.
+## Disclaimer: the app is working properly and extremely fast if the blockchain is not overloaded. However, when using this software in airdrop claims, when thousands of people also try to claim their tokens, the app can work unstable. I have implemented many features to make this app work stable even in extremal overload conditions. Good luck! :)
 
 App needs a folder named "settings" in the same folder as .py files. It contains: main_rpc.txt, side_rpc.txt, token_contract_address.txt, 
 token_abi.txt, sender_private_key.txt, recipient_address.txt, threshold.txt
