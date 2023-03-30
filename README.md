@@ -1,6 +1,6 @@
-# Crypto-airdrop
+# Crypto-airdrop by Dmytro Hordiienko
 
-Needad a folder named "settings" in the same folder as .py files. It contains: main_rpc.txt, side_rpc.txt, token_contract_address.txt, 
+App needs a folder named "settings" in the same folder as .py files. It contains: main_rpc.txt, side_rpc.txt, token_contract_address.txt, 
 token_abi.txt, sender_private_key.txt, recipient_address.txt, threshold.txt
 
 main_rpc.txt - official chain's rpc (connecting be default).
