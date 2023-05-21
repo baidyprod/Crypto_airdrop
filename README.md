@@ -1,4 +1,4 @@
-# Crypto-airdrop by Dmytro Hordiienko
+# Crypto-airdrop by Baidy
 
 ## Disclaimer: the app is working properly and extremely fast if the blockchain is not overloaded. However, when using this software in airdrop claims, when thousands of people also try to claim their tokens, the app can work unstable. I have implemented many features to make this app work stable even in extremal overload conditions. Good luck! :)
 
