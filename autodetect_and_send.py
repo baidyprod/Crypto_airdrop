@@ -1,28 +1,26 @@
-from web3 import Web3, types
+import os
 import time
 import random
+
+from dotenv import load_dotenv
+
+from web3 import Web3, types
+
+
+load_dotenv()
 
 SUCCESS = '\033[92m'
 WARNING = '\033[93m'
 DEFAULT = '\033[0m'
 
 
-def read_files(*files):
-    results = []
-    for file_name in files:
-        with open(file_name, 'r') as f:
-            results.append(f.read())
-    return results
-
-
-main_rpc, side_rpc, token_contract_address, abi, sender_private_key, recipient_address_unconverted, threshold = \
-                                                                    read_files('settings/main_rpc.txt',
-                                                                               'settings/side_rpc.txt',
-                                                                               'settings/token_contract_address.txt',
-                                                                               'settings/token_abi.txt',
-                                                                               'settings/sender_private_key.txt',
-                                                                               'settings/recipient_address.txt',
-                                                                               'settings/threshold.txt')
+main_rpc = os.getenv('MAIN_RPC')
+side_rpc = os.getenv('SIDE_RPC')
+token_contract_address = os.getenv('TOKEN_CONTRACT_ADDRESS')
+abi = os.getenv('ABI')
+sender_private_key = os.getenv('SENDER_PRIVATE_KEY')
+recipient_address_unconverted = os.getenv('RECIPIENT_ADDRESS')
+threshold = os.getenv('THRESHOLD')
 
 
 while True:
